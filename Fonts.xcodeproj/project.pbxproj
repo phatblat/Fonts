@@ -14,6 +14,8 @@
 		F8E3C97D19E0EBA600C5A382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3C97C19E0EBA600C5A382 /* Images.xcassets */; };
 		F8E3C98019E0EBA600C5A382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E3C97E19E0EBA600C5A382 /* LaunchScreen.xib */; };
 		F8E3C98C19E0EBA600C5A382 /* FontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C98B19E0EBA600C5A382 /* FontsTests.m */; };
+		F8E3C99719E0F40100C5A382 /* FontExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */; };
+		F8E3C99A19E0F50700C5A382 /* AppTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C99919E0F50700C5A382 /* AppTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F8E3C98519E0EBA600C5A382 /* FontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E3C98A19E0EBA600C5A382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E3C98B19E0EBA600C5A382 /* FontsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontsTests.m; sourceTree = "<group>"; };
+		F8E3C99519E0F40100C5A382 /* FontExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontExampleViewController.h; sourceTree = "<group>"; };
+		F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontExampleViewController.m; sourceTree = "<group>"; };
+		F8E3C99819E0F50700C5A382 /* AppTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTabBarController.h; sourceTree = "<group>"; };
+		F8E3C99919E0F50700C5A382 /* AppTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				F8E3C97319E0EBA600C5A382 /* AppDelegate.h */,
 				F8E3C97419E0EBA600C5A382 /* AppDelegate.m */,
+				F8E3C99819E0F50700C5A382 /* AppTabBarController.h */,
+				F8E3C99919E0F50700C5A382 /* AppTabBarController.m */,
+				F8E3C99519E0F40100C5A382 /* FontExampleViewController.h */,
+				F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */,
 				F8E3C97619E0EBA600C5A382 /* FontTableViewController.h */,
 				F8E3C97719E0EBA600C5A382 /* FontTableViewController.m */,
 				F8E3C97919E0EBA600C5A382 /* Main.storyboard */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E3C99719E0F40100C5A382 /* FontExampleViewController.m in Sources */,
 				F8E3C97819E0EBA600C5A382 /* FontTableViewController.m in Sources */,
+				F8E3C99A19E0F50700C5A382 /* AppTabBarController.m in Sources */,
 				F8E3C97519E0EBA600C5A382 /* AppDelegate.m in Sources */,
 				F8E3C97219E0EBA600C5A382 /* main.m in Sources */,
 			);
