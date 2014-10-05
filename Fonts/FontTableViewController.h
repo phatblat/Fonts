@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FontTableViewController.h
 //  Fonts
 //
 //  Created by Ben Chatelain on 10/4/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FontTableViewController : UITableViewController
 
 @end
 
