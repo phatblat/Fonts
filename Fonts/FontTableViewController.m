@@ -10,7 +10,7 @@
 
 @interface FontTableViewController ()
 
-@property (strong, nonatomic) NSArray *fontFamilyNames;
+@property (strong, nonatomic) NSMutableArray *fontNames;
 
 @end
 
@@ -22,7 +22,11 @@
 {
     [super viewDidLoad];
 
-    self.fontFamilyNames = [[UIFont familyNames] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+    NSArray *fontFamilyNames = [[UIFont familyNames] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+    self.fontNames = [[NSMutableArray alloc] init];
+    for (NSString *fontFamilyName in fontFamilyNames) {
+        [self.fontNames addObjectsFromArray:[UIFont fontNamesForFamilyName:fontFamilyName]];
+    }
 }
 
 #pragma mark - UITableViewDataSource
@@ -34,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.fontFamilyNames.count;
+    return self.fontNames.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -44,8 +48,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    NSString *fontFamily = self.fontFamilyNames[indexPath.row];
-    cell.textLabel.text = fontFamily;
+    NSString *fontName = self.fontNames[indexPath.row];
+    cell.textLabel.text = fontName;
+    UIFont *font = [UIFont fontWithName:fontName size:14];
+    cell.textLabel.font = font;
 
     return cell;
 }
