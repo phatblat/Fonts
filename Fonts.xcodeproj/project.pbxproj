@@ -16,6 +16,7 @@
 		F8E3C98C19E0EBA600C5A382 /* FontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C98B19E0EBA600C5A382 /* FontsTests.m */; };
 		F8E3C99719E0F40100C5A382 /* FontExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */; };
 		F8E3C99A19E0F50700C5A382 /* AppTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C99919E0F50700C5A382 /* AppTabBarController.m */; };
+		F8E3C9A019E0FD9100C5A382 /* Apple Symbols.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F8E3C99F19E0FD9100C5A382 /* Apple Symbols.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontExampleViewController.m; sourceTree = "<group>"; };
 		F8E3C99819E0F50700C5A382 /* AppTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTabBarController.h; sourceTree = "<group>"; };
 		F8E3C99919E0F50700C5A382 /* AppTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTabBarController.m; sourceTree = "<group>"; };
+		F8E3C99F19E0FD9100C5A382 /* Apple Symbols.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Symbols.ttc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F8E3C99619E0F40100C5A382 /* FontExampleViewController.m */,
 				F8E3C97619E0EBA600C5A382 /* FontTableViewController.h */,
 				F8E3C97719E0EBA600C5A382 /* FontTableViewController.m */,
+				F8E3C99F19E0FD9100C5A382 /* Apple Symbols.ttc */,
 				F8E3C97919E0EBA600C5A382 /* Main.storyboard */,
 				F8E3C97C19E0EBA600C5A382 /* Images.xcassets */,
 				F8E3C97E19E0EBA600C5A382 /* LaunchScreen.xib */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E3C9A019E0FD9100C5A382 /* Apple Symbols.ttc in Resources */,
 				F8E3C97B19E0EBA600C5A382 /* Main.storyboard in Resources */,
 				F8E3C98019E0EBA600C5A382 /* LaunchScreen.xib in Resources */,
 				F8E3C97D19E0EBA600C5A382 /* Images.xcassets in Resources */,

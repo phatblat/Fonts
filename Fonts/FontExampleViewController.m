@@ -22,9 +22,10 @@
 {
     [super viewDidLoad];
 
-    self.label.text = @"example text";
-    UIFont *font = [UIFont fontWithName:@"Apple Symbols" size:14];
+    UIFont *font = [UIFont fontWithName:@"Apple Symbols" size:72];
     self.label.font = font;
+
+    self.label.text = @"Apple Symbols ⚙⌘⎋⏎⏏⌤⌥⌃⌄⌅⌆⌀⌁⌂⌐⌑⌒⌓⌔⌕⌖⌗⌙⌦⌧⌫⌨⎄⎅⎆⎇⎈⎉⎊⎌⌚︎⌛︎⎗⎘⎙⎚⎀⎁⎂⎃⌇⌈⌉⌊⌋⌌⌍⌏⌠⎮⌡⌢⌣⌜⌝⌞⌟⁒〈〉⌬⏍⑃⑂⑁␦⑆⑇⑈⑉⑀⑊⏁⏄⎷⍭⍟⍠⍖⍕⍇⍈⍆⍝⍒⍐⍏⍎⍓⍠⎙⎃⎂⎁";
 }
 
 @end

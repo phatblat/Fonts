@@ -3,6 +3,11 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Apple Symbols.ttc">
+            <string>AppleSymbols</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--System Fonts-->
         <scene sceneID="aw6-ga-BV8">
@@ -52,14 +57,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idQ-K7-vVb">
-                                <rect key="frame" x="139" y="70" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idQ-K7-vVb">
+                                <rect key="frame" x="16" y="28" width="288" height="66"/>
+                                <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="72"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="idQ-K7-vVb" firstAttribute="leading" secondItem="ONE-8W-mQp" secondAttribute="leading" constant="16" id="RXv-wd-ZzY"/>
+                            <constraint firstItem="idQ-K7-vVb" firstAttribute="top" secondItem="MLw-JE-aTt" secondAttribute="bottom" constant="8" id="X02-FG-BPb"/>
+                            <constraint firstAttribute="trailing" secondItem="idQ-K7-vVb" secondAttribute="trailing" constant="16" id="ll9-6B-LiR"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Custom Font" id="gKb-JP-kre"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
