@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
 
-    self.fontFamilyNames = [UIFont familyNames];
+    self.fontFamilyNames = [[UIFont familyNames] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
 }
 
 #pragma mark - UITableViewDataSource
